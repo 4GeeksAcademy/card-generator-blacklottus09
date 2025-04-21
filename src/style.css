@@ -6,13 +6,12 @@ body {
   }
   
   .carta {
-      margin-top: 10px;
     background-color: white;
     width: 350px;
     height: 550px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin:50px;
     border-radius: 5%;
     padding: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -36,10 +35,7 @@ body {
     align-items: center;
   }
   
-  .secondStick {
-    font-size: 100px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    transform: rotate(180deg);
+  .rotate {
+    transform: rotate(180deg);;
   }
+
