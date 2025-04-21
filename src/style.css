@@ -1,5 +1,43 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
-body{
-    background: white;
-}
+body {
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carta {
+    background-color: white;
+    width: 350px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5%;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .stick {
+    font-size: 100px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .number {
+    font-size: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .secondStick {
+    font-size: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
