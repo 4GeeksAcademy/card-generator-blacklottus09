@@ -18,6 +18,6 @@ window.onload = function() {
   document.getElementById("card").innerHTML = `       
       <div class="stick ${isItRed(randomSuit)}"><p>${suit[randomSuit]}</p></div>       
       <div class="number ${isTheNumberRed(randomSuit, randomNumber)}"><p>${cardNumber[randomNumber]}</p></div>       
-      <div class="secondStick ${isItRed(randomSuit)}"><p>${suit[randomSuit]}</p></div>     
+      <div class="stick rotate ${isItRed(randomSuit)}"><p>${suit[randomSuit]}</p></div>     
   `;
 };
